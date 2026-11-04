@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "DomainName",
+    "ParameterValue": "shop.example.com"
+  },
+  {
+    "ParameterKey": "HostedZoneId",
+    "ParameterValue": "Z0123456789ABCDEF"
+  },
+  {
+    "ParameterKey": "CloudFrontPrefixListId",
+    "ParameterValue": "pl-00000000"
+  },
+  {
+    "ParameterKey": "OriginVerifySecret",
+    "ParameterValue": "replace-with-24-or-more-letters-and-digits"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t3.micro"
+  }
+]

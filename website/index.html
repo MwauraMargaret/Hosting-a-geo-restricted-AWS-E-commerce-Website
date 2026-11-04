@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meridian Market</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="/">Meridian Market</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/products.html">Shop</a>
+        <a href="/cart.html">Cart (<span data-cart-count>0</span>)</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <div>
+        <h1>Goods from workshops in Africa and Asia.</h1>
+        <p class="lede">Wool, tea clay, spice, and cloth. A small storefront hosted on AWS and published only where the shop ships.</p>
+        <p><a class="button" href="/products.html">Browse the shop</a></p>
+      </div>
+      <aside class="panel">
+        <strong>Where this site opens</strong>
+        <p>Viewers in Africa and Asia can load the shop. CloudFront returns 403 everywhere else. A VPN exit in each kind of location is how you prove it.</p>
+      </aside>
+    </section>
+    <div class="section-head">
+      <h2>In the shop this week</h2>
+      <a href="/products.html">All goods</a>
+    </div>
+    <section class="grid" aria-label="Featured goods">
+      <article class="card">
+        <div class="swatch" style="--swatch:#8c3d2f"></div>
+        <div class="card-body">
+          <h2>Berber wool throw</h2>
+          <p class="origin">Morocco</p>
+          <p>Hand-loomed stripes in undyed wool.</p>
+          <p class="price">$120.00</p>
+          <button type="button" data-add data-id="berber-throw" data-name="Berber wool throw" data-price="120">Add to cart</button>
+        </div>
+      </article>
+      <article class="card">
+        <div class="swatch" style="--swatch:#1f4a45"></div>
+        <div class="card-body">
+          <h2>Yirgacheffe coffee</h2>
+          <p class="origin">Ethiopia</p>
+          <p>Washed beans with citrus and jasmine.</p>
+          <p class="price">$22.00</p>
+          <button type="button" data-add data-id="yirga-coffee" data-name="Yirgacheffe coffee" data-price="22">Add to cart</button>
+        </div>
+      </article>
+      <article class="card">
+        <div class="swatch" style="--swatch:#c4622d"></div>
+        <div class="card-body">
+          <h2>Banko kyusu</h2>
+          <p class="origin">Japan</p>
+          <p>Side-handle teapot in red clay.</p>
+          <p class="price">$68.00</p>
+          <button type="button" data-add data-id="kyusu" data-name="Banko kyusu" data-price="68">Add to cart</button>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">Demonstration storefront. No orders are fulfilled and no payment is processed.</div>
+  </footer>
+  <script src="/js/app.js"></script>
+</body>
+</html>
